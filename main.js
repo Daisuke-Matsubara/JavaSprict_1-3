@@ -1,65 +1,22 @@
-let num1 = 10;
-let num2 = 4;
-let result;
+//条件分岐・演算子 課題
+//問1
+let a = 5;
+let b = 18;
+console.log(a === 10);
+console.log(b>=10 && b <=20 && b %2 ===0);
 
-result = num1 + num2;
-console.log(result);
-
-result = num1 - num2;
-console.log(result);
-
-result = num1 * num2;
-console.log(result);
-
-result = num1 / num2;
-console.log(result);
-
-result = num1 % num2;
-console.log(result);
-
-let lastname = '田中';
-let firstname = '一郎';
-let fullname = lastname + firstname;
-console.log(fullname);
-
+//問2
 let x = 10;
-x++;
-console.log(x);
-
-let y = 10;
-y--;
-console.log(y);
-
-console.log(10 === 10);
-console.log(10 === 5);
-console.log(10 !== 5);
-console.log(10 > 20);
-console.log(10 <= 10);
-
-console.log('10' === 10);//f
-console.log('10' == 10);//t
-
-let score = 0;
-if(score >= 70){
-    console.log('合格');
-} else if(score === 0) {
-    console.log('0点はまずいです...');
+if( x >= 10 && x <=20){
+    console.log('成功です');
 } else {
-    console.log('不合格');
+    console.log('失敗です');
 }
 
-let a = 15;
-if(a >= 10 && a <= 20){
-    console.log(a);
-}
-
-let b = 10;
-let c = 15;
-
-if(b % 2 === 0){
-    console.log(b);
-}
-
-if(c % 2 !== 0){
-    console.log(c);
+//問3
+let y = 0;
+if( y %2 === 0){
+    console.log('偶数です')
+} else {
+    console.log('奇数です');
 }
